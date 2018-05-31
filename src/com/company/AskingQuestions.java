@@ -11,10 +11,10 @@ public class AskingQuestions
         double num1, num2, num3; // Line 11. I changed datatype from int to double
 
         System.out.print( "First temperature? " );
-        num1 = keyboard.nextDouble(); // Changed method to nextDouble()
+        num1 = keyboard.nextDouble(); // Changed method from nextInt() to nextDouble()
 
         System.out.print( "Second temperature? " );
-        num2 = keyboard.nextDouble(); // Changed method to nextDouble()
+        num2 = keyboard.nextDouble(); // Changed method from nextInt() to nextDouble()
 
         // To find the average of two double values, I used num3 to calculate and hold the average value
         num3 = (num1 + num2) / 2;
